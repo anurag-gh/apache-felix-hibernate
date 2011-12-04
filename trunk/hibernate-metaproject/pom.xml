@@ -21,17 +21,6 @@
 		</repository>
 	</repositories>
 
-	<distributionManagement>
-		<repository>
-			<id>CQ_Release</id>
-			<url>http://nexus.eggs.local/nexus/content/repositories/cq_release</url>
-		</repository>
-		<snapshotRepository>
-			<id>CQ_Snapshots</id>
-			<url>http://nexus.eggs.local/nexus/content/repositories/cq_snapshots</url>
-		</snapshotRepository>
-	</distributionManagement>
-
 	<description>This project contains all dependencies to run hibernate on a apache felix OSGi Server.	</description>
 	<build>
 		<plugins>
